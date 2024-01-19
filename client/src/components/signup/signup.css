@@ -1,0 +1,137 @@
+/*Err message start*/
+.none{
+    display: none;
+}
+
+.errMsg{
+    color: red;
+    height: auto;
+    font-family: "Poppins";
+    margin: 1rem;
+    font-size: 22px;
+    font-weight: 600;
+    border: red solid;
+    width: auto;
+}
+
+.instructions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-content: center;
+}
+/*Err message end*/
+
+.formBody {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url("@assets/image/Carousel/ayamgeprek.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+/*nav start*/
+.navSign{
+    width: 100%;
+    height: 6rem;
+    background-image: url("@assets/image/Carousel/koki.webp");
+    background-size: 7.5rem;
+    background-repeat: no-repeat;
+}
+/*nav end*/
+
+/*form start*/
+.wrapper-form {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 0 1px 14px 3px #000000;
+    border-radius: 3%;
+}
+  
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 90%;
+}
+  
+.header {
+    height: auto;
+    font-family: "Poppins";
+    margin:  1em 0 1em 1em;
+    font-size: 22px;
+    font-weight: 600;
+  
+}
+  
+.form-sign {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.input-contain{
+    position: relative;
+}
+
+.input-icon{
+    position: absolute;
+    top: 50%;
+    right: 1.25%;
+    transform: translateY(-50%);
+    font-size: 1.5vw;
+}
+
+.form-input {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    font-size: 12px;
+    padding: 10px 0 10px 15px;
+    border-radius: 30px;
+    border-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+  
+p{
+    width: 90%;
+    font-family: "Poppins";
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.signin {
+    color: black;
+    text-decoration: none;
+    font-weight: 1000;
+}
+  
+.submit-button:hover {
+    opacity: 0.5;
+}
+
+/*start line*/
+.line{
+    display: flex;
+    align-items: center;
+}
+
+.line-caption{
+    font-family: 'Podkova';
+    padding: 1em;
+}
+
+hr{
+    width: 50%;
+    height: 0;
+}
+/*end line*/

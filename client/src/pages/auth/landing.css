@@ -1,0 +1,28 @@
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M3.5 0l-1.5 1.5 2 2-2 2 1.5 1.5 3.5-3.5-3.5-3.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  opacity: 1;  
+
+}
+
+.sr-only{
+  font-family: "Poppins"; 
+  color: #BF6C0A;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 25px; 
+  background-color: #ffffff;
+  padding: 3px 20px;
+}
+
+.sr-only:hover{
+  background-color: tomato;
+}

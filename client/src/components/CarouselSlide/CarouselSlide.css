@@ -1,0 +1,155 @@
+.body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("@assets/image/Carousel/bgweb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.thirdBody{
+    width: 100%;
+    height: 100vh;
+    background-image: url("@assets/image/Carousel/bgweb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kantin{
+    font-family: "Original Surfer";
+    font-size: 22px;
+    margin-left: 22px;
+    padding-top:22px ;
+    text-decoration: 1px underline;
+}
+
+.ku{
+    color: #FA0000;
+    text-decoration: 1px underline; color: #FA0000;
+}
+
+.slogan{
+    font-family: "Poppins";
+    font-size: 29px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 43px;
+}
+
+.slogan-p{
+    font-size: 29px;
+    width: 100%;
+    font-weight: 900;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    margin-right: 25px;
+}
+
+.next{
+    font-family: "Poppins"; color: #BF6C0A;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 25px; background-color: #ffffff;
+    padding: 3px 15px;
+}
+
+
+.secBody{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url("@assets/image/Carousel/ayamdansayur.webp");
+    background-repeat: no-repeat;
+    background-image: cover;
+    place-content: center;
+    place-items: center;
+}
+
+.masalah{
+    font-family: "Baloo Thambi"; color: #ffffff;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.solusi{
+    font-family: "Baloo Thambi"; color: #ffffff;
+    font-size: 29px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.blur{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.nasgor{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.nasigoreng{
+    width: 60%;
+    height: 15rem;
+    align-content: center;
+    background-image: url("@assets/image/Carousel/nasigoreng.webp");
+    background-size: 16.5rem;
+    background-position: center 0.01px ;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    border-radius: 500px;
+    margin-top: 2rem ;
+}
+
+.enjoy{
+    font-family: "Poppins";
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.enjoy-p{
+    font-size: 38px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.button{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100%;
+}
+
+.getstarted{
+    font-family: "Poppins"; color: #BF6C0A;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 29px; background-color: #ffffff;
+    padding: 20px 60px;
+}

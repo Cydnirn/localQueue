@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body, html{
+    overflow: hidden;
+}
+
+nav{
+    position: absolute;
+}
+
+.masalah{
+    font-family: "Baloo Thambi"; color: #ffffff;
+    font-size: 29px;
+    font-weight: 400;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
+.solusi{
+    font-family: "Baloo Thambi"; color: #ffffff;
+    font-size: 29px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.blur{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.nextbutton{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    margin-right: 25px;
+}
+
+.next{
+    font-family: "Poppins"; color: #BF6C0A;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 25px; background-color: #ffffff;
+    padding: 3px 15px;
+}
